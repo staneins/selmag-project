@@ -1,8 +1,8 @@
 package com.kaminsky.managerapp.controller;
 
-import com.kaminsky.managerapp.entity.Product;
-import com.kaminsky.managerapp.payload.UpdateProductPayload;
-import com.kaminsky.managerapp.service.ProductService;
+import com.kaminsky.entity.Product;
+import com.kaminsky.managerapp.controller.payload.UpdateProductPayload;
+import com.kaminsky.service.ProductService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.MessageSource;

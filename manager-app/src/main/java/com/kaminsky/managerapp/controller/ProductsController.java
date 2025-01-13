@@ -1,8 +1,8 @@
 package com.kaminsky.managerapp.controller;
 
-import com.kaminsky.managerapp.entity.Product;
-import com.kaminsky.managerapp.payload.NewProductPayload;
-import com.kaminsky.managerapp.service.ProductService;
+import com.kaminsky.entity.Product;
+import com.kaminsky.managerapp.controller.payload.NewProductPayload;
+import com.kaminsky.service.ProductService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;

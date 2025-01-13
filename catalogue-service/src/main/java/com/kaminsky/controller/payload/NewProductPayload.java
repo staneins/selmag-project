@@ -1,4 +1,4 @@
-package com.kaminsky.managerapp.payload;
+package com.kaminsky.controller.payload;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

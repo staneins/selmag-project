@@ -1,7 +1,7 @@
-package com.kaminsky.managerapp.service;
+package com.kaminsky.service;
 
-import com.kaminsky.managerapp.entity.Product;
-import com.kaminsky.managerapp.repository.ProductRepository;
+import com.kaminsky.entity.Product;
+import com.kaminsky.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

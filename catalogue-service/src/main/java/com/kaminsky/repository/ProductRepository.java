@@ -1,6 +1,6 @@
-package com.kaminsky.managerapp.repository;
+package com.kaminsky.repository;
 
-import com.kaminsky.managerapp.entity.Product;
+import com.kaminsky.entity.Product;
 
 import java.util.List;
 import java.util.Optional;
