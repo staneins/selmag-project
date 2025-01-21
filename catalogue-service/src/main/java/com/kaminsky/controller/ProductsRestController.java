@@ -39,7 +39,7 @@ public class ProductsRestController {
             }
         } else {
             Product product = this.productService.createProduct(payload.title(), payload.details());
-            return ResponseEntity.created(builder.replacePath("/catalagoue-api/products/{productId}").build(Map.of("productId", product.getId()))).body(product);
+            return ResponseEntity.created(builder.replacePath("/catalogue-api/products/{productId}").build(Map.of("productId", product.getId()))).body(product);
         }
     }
 }
