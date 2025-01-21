@@ -20,7 +20,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @SpringBootTest
-@ActiveProfiles("standalone")
 @AutoConfigureMockMvc
 @WireMockTest(httpPort = 54321)
 public class ProductsControllerIT {

@@ -2,3 +2,8 @@ selmag:
   services:
     catalogue:
       uri: http://localhost:54321
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:16:///selmag?TC_DAEMON=true
+    username: selmag
+    password: selmag
