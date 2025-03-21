@@ -5,7 +5,6 @@ import com.kaminsky.entity.Product;
 import com.kaminsky.service.ProductService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
